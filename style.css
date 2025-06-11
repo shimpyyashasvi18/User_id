@@ -1,0 +1,44 @@
+div{
+    display:block;
+}
+.container{
+    display:flex;
+    padding:50px;
+    justify-content:center;
+    min-height:70vh;
+    margin:0;
+    gap:50px;
+    padding-right:5px;
+    flex-wrap:wrap;
+}
+.profile{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:15px;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content:center; 
+    flex-wrap:wrap;
+    border-style:hidden;
+    border-color:aqua;
+    background-color:#fff;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    width:400px;
+}
+.profile_pic{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    object-fit:cover;
+    background-size:cover;
+
+}
+
+.label{
+    font-weight:bold;
+}
+.social{
+    margin-top:10px;
+  
+}
